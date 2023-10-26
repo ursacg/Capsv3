@@ -1,0 +1,258 @@
+body{
+    margin-top: 0;
+    font-family: "Rubik", sans-serif;
+    background-color: #0e7936;
+}
+
+
+
+.greenbg{
+
+    background-color: #0e7936;
+    height: 43px;
+    margin: 0 0 0 0;
+    display: flex;
+    padding-left: 116px;
+    align-items: center;
+    padding-top: 0;
+}
+
+.head_gap {
+
+    height: 150px;
+    background-color: #181a1b;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    
+    width: 85%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 104px;
+    margin-right: 104px;
+    background-color: #181a1b;
+    
+    
+}
+
+.block {
+   flex: 1;
+    
+    
+}
+/*head 1 */
+.head1{
+    color: rgb(178, 172, 162);
+    display: grid;
+    grid-template-columns: auto 700px auto;
+    gap: 20px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+
+    margin: 0 0 0 0;
+    
+
+    
+}
+
+.center{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center input{
+
+    width: 88%;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 8px;
+    height: 43px;
+
+}
+
+.left{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position:relative;
+
+    margin-right: -100px;
+    
+}
+.logo, .profile{
+
+    margin-right: 0;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.profile a img {
+    position: relative;
+    height: 65px;
+    left: -70px;
+    width: 200px;
+    top: 10px;
+    
+}
+
+.profile a {
+
+    position: relative;
+    
+    
+}
+
+.profile p {
+
+    left: -50px;
+    position: relative;
+    width: 200px;
+    color: rgb(191, 185, 177);
+}
+
+.profile{
+
+    padding: 0 0 0 0;
+    margin: 0 -50px 0 0;
+}
+
+
+.icon_container{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    
+    
+    
+}
+
+.right .icons img {
+
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* head2*/
+
+.head2 {
+
+    display: grid;
+    grid-template-columns: 1.5fr 200px 1fr;
+    gap:10px;
+    width: 100%;
+    margin-top: 5px;
+    color: rgb(178, 172, 162);
+    
+
+}
+.h2left{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center;
+    
+    
+}
+
+.h2left_content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center;
+    
+    
+    width: 100%;
+}
+
+.h2right{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* dropdown */
+
+.dropdown{
+
+    visibility: hidden;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 35px 0px;
+    background-color: rgb(24, 26, 27);
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    height: 192px;
+    left: 0px;
+    
+
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0 0 0 0;
+    outline-color: rgb(178, 172, 162);
+    padding: 10px 10px 10px 10px;
+    scrollbar-color: rgb(0, 242, 255) rgb(255, 255, 255);
+    scrollbar-width: thin;
+    top: 100px;
+
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: linear;
+    
+
+}
+
+.contact_details{
+    padding: 10px;
+}
+
+
+
